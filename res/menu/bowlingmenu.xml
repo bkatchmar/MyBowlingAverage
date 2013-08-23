@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/revert" android:title="Revert To Backup" />
+	<item android:id="@+id/allScores" android:title="Delete All Scores" />
+	<item android:id="@+id/goToDates" android:title="Score Dates Breakdown" />
+	<item android:id="@+id/backup" android:title="Backup All Scores" />
+	<item android:id="@+id/ledit" android:title="League Editor" />
+	<item android:id="@+id/close" android:title="Close" />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+	<TextView
+		android:id="@+id/lblDate"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="date"
+		android:paddingBottom="5sp"
+		android:paddingTop="5sp" />
+		
+	<TextView
+		android:id="@+id/lblAdaptAverage"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Average"
+		android:gravity="center_vertical|center_horizontal" />
+		
+	<TextView
+		android:id="@+id/lblAdaptHighest"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Highest"
+		android:gravity="center_vertical|center_horizontal"
+		android:paddingBottom="2sp" />
+    	
+</LinearLayout>

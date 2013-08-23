@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2">
+    
+    <TableRow>
+	    <TextView
+    		android:id="@+id/rowScoreDate"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+    		android:text="Date"
+	    	android:textColor="#FFFFFF"
+		    android:textStyle="bold"
+		    android:textSize="16sp" />
+    	
+	    <TextView
+    		android:id="@+id/rowScoreID"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+    		android:text="ID"
+    		android:textColor="#FFFFFF"
+   	 		android:visible="false"
+			android:visibility="invisible" />
+		
+		<TextView
+			android:id="@+id/rowScore"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+    		android:text="Score"
+    		android:textColor="#FFFFFF"
+	    	android:textStyle="bold"
+    		android:textSize="16sp" android:layout_gravity="center_horizontal"/>
+    	
+		<Button
+			android:id="@+id/btnDelete"
+			android:layout_width="wrap_content"
+			android:layout_height="35sp"
+			android:text="X"
+			android:gravity="top|center_horizontal" />
+	</TableRow>
+</TableLayout>

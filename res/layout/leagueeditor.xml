@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView  
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+    	android:text="Please Enter Name of a New League" 
+    	android:textSize="18sp"
+    	android:height="35sp"
+    	android:gravity="center_vertical|center_horizontal"/>
+    	
+    <TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0">
+		
+		<TableRow>
+			<EditText
+				android:id="@+id/txtLeague"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Button 
+				android:id="@+id/btnAddLeague"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Enter" android:width="90sp" />
+		</TableRow>
+		
+	</TableLayout>
+	
+	<ListView
+    	android:id="@+id/lstLeagues"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:drawSelectorOnTop="false"
+    	android:layout_marginTop="5sp" />
+    
+</LinearLayout>
